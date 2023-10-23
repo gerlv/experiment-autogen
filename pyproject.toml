@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "experiments-autogen"
+version = "0.1.0"
+description = ""
+authors = ["Oleg Gera <hi@oleggera.com>"]
+readme = "README.md"
+packages = [{include = "experiments_autogen"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyautogen = "~0.1.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
